@@ -3,7 +3,9 @@ Making fast.ai framework support RawPy library (like with PIL)
 
 # How to use
 Use:
+
 > pip install fastai-rawpy
+
 to install this package that lets you use fast.ai and RAW image files as well.
 
 # `class TensorRawImage` + `class RAWImage`
