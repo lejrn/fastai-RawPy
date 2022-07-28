@@ -1,5 +1,3 @@
-![PyPI][(https://img.shields.io/pypi/v/fastai-rawpy?color=blue&label=pypi%version.png)](https://pypi.org/project/fastai-rawpy/0.0.1)
-![PyPI](https://img.shields.io/pypi/v/fastai?color=blue&label=pypi%20version.png)](https://pypi.org/project/fastai/#description)
 # Connecting fast.ai with RawPy
 Here we can make fast.ai framework support RawPy library, hence use RAW image files on fastai
 
