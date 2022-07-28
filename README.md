@@ -1,12 +1,14 @@
 # Connecting fast.ai with RawPy
 Making fast.ai framework support RawPy library (like with PIL)
 
-# How to use
+# How to install
 Use:
 
 ```pip install fastai-rawpy```
 
 to install this package that lets you use fast.ai and RAW image files as well.
+
+# How to import fastai-rawpy
 
 Use:
 
