@@ -1,6 +1,11 @@
 # Connecting fast.ai with RawPy
 Making fast.ai framework support RawPy library (like with PIL)
 
+# How to use
+Use:
+> pip install fastai-rawpy
+to install this package that lets you use fast.ai and RAW image files as well.
+
 # `class TensorRawImage` + `class RAWImage`
 #### First off, what is the difference between JPG and RAW formats?
 JPG format has a bit-depth of 8bits for every channel (R,G,B), meaning: every pixel gets values in between 0 up to 255.
