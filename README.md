@@ -1,4 +1,4 @@
-# Adding-RawPy-to-fastai
+# Connecting fast.ai with RawPy
 Making fast.ai framework support RawPy library (like with PIL)
 
 # `class TensorRawImage` + `class RAWImage`
