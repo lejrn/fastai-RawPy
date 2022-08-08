@@ -20,7 +20,7 @@ While using fast.ai, wherever you could have used `ImageBlock`, just type in `Ra
 
 # What's inside
 
-###`class TensorRawImage` + `class RAWImage`
+### `class TensorRawImage` + `class RAWImage`
 
 RAW format has a bit-depth of 16bits for every channel (R,G,B[,G]), meaning: every pixel gets values in between 0 up to... 65536!
 > 2^16=65536
