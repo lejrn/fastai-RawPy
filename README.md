@@ -16,7 +16,39 @@ Use:
 
 in order to import `RawImageBlock` as well as all of the necessary functions/classes/etc that adjust fast.ai so it supports RawPy.
 
-While using fast.ai, wherever you could have used `ImageBlock`, just type in `RawImageBlock`.
+# How to use fastai-rawpy
+
+Upon using fast.ai, wherever you could have used `ImageBlock`, just type in `RawImageBlock`.
+
+## examples
+
+This code:
+
+```
+dblock = DataBlock(blocks=(RawImageBlock(gamma=(2.222, 4.5), # Input  
+                                         output_color=rawpy.ColorSpace.sRGB, 
+                                         bright=0.50, 
+                                         output_bps=16),
+                           RawImageBlock(use_camera_wb=True, # Target
+                                         output_color=rawpy.ColorSpace.sRGB,
+                                         output_bps=16)
+                           )
+                    )
+```
+
+is changed into this code:
+
+```
+dblock = DataBlock(blocks=(RawImageBlock(gamma=(2.222, 4.5), # Input  
+                                         output_color=rawpy.ColorSpace.sRGB, 
+                                         bright=0.50, 
+                                         output_bps=16),
+                           RawImageBlock(use_camera_wb=True, # Target
+                                         output_color=rawpy.ColorSpace.sRGB,
+                                         output_bps=16)
+                           )
+                    )
+```
 
 # Why use fastai-rawpy
 
