@@ -22,6 +22,22 @@ Upon using fast.ai, wherever you could have used `ImageBlock`, just type in `Raw
 
 ## examples
 
+### 1
+
+This line uses `PILImage` as a data-holder of PIL supporting image files (such as JPG, PNG, BMP, ...), which will be peaked by the `ImageBlock` classifier.
+
+```
+dblock = DataBlock(blocks=(ImageBlock(cls=PILImage),ImageBlock(cls=PILImage)))
+```
+
+But this line uses `RawImageBlock` classifier, which would automatically use `RAWImage` as its data-holder of RAW image files.
+
+```
+dblock = DataBlock(blocks=(RawImageBlock(),RawImageBlock()))
+```
+
+### 2
+
 This code:
 
 ```
