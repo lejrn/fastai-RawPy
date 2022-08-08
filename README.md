@@ -18,15 +18,15 @@ in order to import `RawImageBlock` as well as all of the necessary functions/cla
 
 While using fast.ai, wherever you could have used `ImageBlock`, just type in `RawImageBlock`.
 
-# What's inside
-
-### `class TensorRawImage` + `class RAWImage`
+# Why use fastai-rawpy
 
 RAW format has a bit-depth of 16bits for every channel (R,G,B[,G]), meaning: every pixel gets values in between 0 up to... 65536!
 > 2^16=65536
 
 Therefore, a RAW image file would normally have a larger range of values for every pixel. This can help training a model become more precise, when switching from JPG to RAW.
 > Note: in practice, every DSLR stores RAW files and postprocesses these files into other formats such as JPG. For instance, it crops and compresses the JPG image out of the RAW file.
+
+### `class TensorRawImage` + `class RAWImage`
 
 #### new classes
 <p align="center">
