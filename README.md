@@ -22,46 +22,34 @@ Upon using fast.ai, wherever you could have used `ImageBlock`, just type in `Raw
 
 ## examples
 
-### 1
+### Example (1)
 
-This line uses `PILImage` as a data-holder of PIL supporting image files (such as JPG, PNG, BMP, ...), which will be peaked by the `ImageBlock` classifier.
+This line creates two blocks (input and target) of an `ImageBlock`, that is a transform to be applied to create items of image type. The transform uses `PILImage` as a data-holder of the image files (such as JPG, PNG, BMP, ...).
 
 ```
 dblock = DataBlock(blocks=(ImageBlock(cls=PILImage),ImageBlock(cls=PILImage)))
 ```
 
-But this line uses `RawImageBlock` classifier, which would automatically use `RAWImage` as its data-holder of RAW image files.
+But this line uses `RawImageBlock` transform, that is applied automatically on built-in `RAWImage` items. `RAWImage` as its data-holder of RAW image files, alike `PILImage`, but is based on `rawpy` package.
 
 ```
 dblock = DataBlock(blocks=(RawImageBlock(),RawImageBlock()))
 ```
 
-### 2
+### Example (2)
 
-This code:
-
-```
-dblock = DataBlock(blocks=(RawImageBlock(gamma=(2.222, 4.5), # Input  
-                                         output_color=rawpy.ColorSpace.sRGB, 
-                                         bright=0.50, 
-                                         output_bps=16),
-                           RawImageBlock(use_camera_wb=True, # Target
-                                         output_color=rawpy.ColorSpace.sRGB,
-                                         output_bps=16)
-                           )
-                    )
-```
-
-is changed into this code:
+This line code snippet creates two `RawImageBlock` blocks of input and target, where the parameters being passed in define the postprocessing of each blocks' image:
 
 ```
-dblock = DataBlock(blocks=(RawImageBlock(gamma=(2.222, 4.5), # Input  
-                                         output_color=rawpy.ColorSpace.sRGB, 
-                                         bright=0.50, 
-                                         output_bps=16),
-                           RawImageBlock(use_camera_wb=True, # Target
-                                         output_color=rawpy.ColorSpace.sRGB,
-                                         output_bps=16)
+dblock = DataBlock(blocks=(RawImageBlock(  # Input
+                                         gamma=(2.222, 4.5),  
+                                         output_color=rawpy.ColorSpace.sRGB, # sRGB Color Space
+                                         bright=0.50, # Brightness level
+                                         output_bps=16), # Bits_per_pixel 
+                           RawImageBlock( # Target
+                                         use_camera_wb=True, # White blanace
+                                         output_color=rawpy.ColorSpace.sRGB, # sRGB Color Space
+                                         output_bps=16) # Bits_per_pixel 
                            )
                     )
 ```
