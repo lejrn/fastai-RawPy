@@ -85,5 +85,5 @@ Therefore, a RAW image file would normally have a larger range of values for eve
 
 #### new classes
 <p align="center">
-  <img src="./SVGs/TensorRawImage__.svg">
+  <img src="./SVGs/tensorRawImage.svg">
 </p>
