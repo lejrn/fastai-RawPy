@@ -48,7 +48,7 @@ This line creates two blocks (input and target) of an `ImageBlock`, that is a tr
 dblock = DataBlock(blocks=(ImageBlock(cls=PILImage),Categorize))
 ```
 
-But this line uses `RawImageBlock` transform, that is applied automatically on built-in `RAWImage` items. `RAWImage` as its data-holder of RAW image files, alike `PILImage`, but is based on `rawpy` package.
+But this line uses `RawImageBlock` transform, that is applied automatically on built-in `RAWImage` items. `RAWImage` is a data-holder of RAW image files, alike `PILImage`, but is based on `rawpy` package.
 
 ```
 dblock = DataBlock(blocks=(RawImageBlock,Categorize))
