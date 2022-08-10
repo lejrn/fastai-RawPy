@@ -90,7 +90,7 @@ Therefore, a RAW image file would normally have a larger range of values for eve
 
 # Behind the stage
 
-### New objects that create the bond between fast.ai and rawpy
+New objects that create the bond between fast.ai and rawpy
 
 ## `class TensorRawImage` + `class RAWImage`
 
