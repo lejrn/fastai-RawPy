@@ -1,12 +1,15 @@
 # Connecting fast.ai with RawPy
-Here we can make fast.ai framework support RawPy library, hence use RAW image files on fastai
+Here we can make fast.ai framework support RawPy library, hence use RAW image files on fastai.
+
+The list of all the RAW image files that can be supported by rawpy (based on LibRaw):
+https://www.libraw.org/supported-cameras
 
 # How to install
 Use:
 
 ```pip install fastai-rawpy```
 
-to install this package that lets you use fast.ai and RAW image files as well.
+to install this package.
 
 # How to import fastai-rawpy
 
