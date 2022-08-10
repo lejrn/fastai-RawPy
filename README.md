@@ -42,17 +42,18 @@ Upon using fast.ai, wherever you could have used `ImageBlock`, just type in `Raw
 
 ### Example (1)
 
-This line creates two blocks (input and target) of an `ImageBlock`, that is a transform to be applied to create items of image type. The transform uses `PILImage` as a data-holder of the image files (such as JPG, PNG, BMP, ...).
-
 ```
 dblock = DataBlock(blocks=(ImageBlock(cls=PILImage),Categorize))
 ```
+This line creates two blocks (input and target) of an `ImageBlock`, that is a transform to be applied to create items of image type. The transform uses `PILImage` as a data-holder of the image files (such as JPG, PNG, BMP, ...).
 
-But this line uses `RawImageBlock` transform, that is applied automatically on built-in `RAWImage` items. `RAWImage` is a data-holder of RAW image files, alike `PILImage`, but is based on `rawpy` package.
 
 ```
 dblock = DataBlock(blocks=(RawImageBlock,Categorize))
 ```
+
+But this line uses `RawImageBlock` transform, that is applied automatically on built-in `RAWImage` items. `RAWImage` is a data-holder of RAW image files, alike `PILImage`, but is based on `rawpy` package.
+
 
 ### Example (2)
 
