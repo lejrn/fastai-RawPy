@@ -5,16 +5,16 @@ The list of all the RAW image files that can be supported by rawpy (based on Lib
 https://www.libraw.org/supported-cameras
 
 Partial list of the supported RAW formats:
-- *.IIQ (Phase One), 
-- *.3FR (Hasselblad), 
-- *.DCR, *.K25, *.KDC (Kodak), 
-- *.CRW *.CR2 *.CR3 (Canon), 
-- *.ERF (Epson), 
-- *.MEF (Mamiya), 
-- *.MOS (Leaf), 
-- *.NEF *.NRW (Nikon), 
-- *.ORF (Olympus), 
-- *.PEF (Pentax), 
+- *.IIQ (Phase One) 
+- *.3FR (Hasselblad)
+- *.DCR, *.K25, *.KDC (Kodak) 
+- *.CRW *.CR2 *.CR3 (Canon) 
+- *.ERF (Epson) 
+- *.MEF (Mamiya) 
+- *.MOS (Leaf) 
+- *.NEF *.NRW (Nikon) 
+- *.ORF (Olympus) 
+- *.PEF (Pentax)
 - *.RW2 (Panasonic)
 - *.ARW, *.SRF, *.SR2 (Sony)
 
