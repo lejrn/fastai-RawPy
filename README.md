@@ -81,7 +81,7 @@ RAW format has a bit-depth of 16bits for every channel (R,G,B[,G]), meaning: eve
 Therefore, a RAW image file would normally have a larger range of values for every pixel. This can help training a model become more precise, when switching from JPG to RAW.
 > Note: in practice, every DSLR stores RAW files and postprocesses these files into other formats such as JPG. For instance, it crops and compresses the JPG image out of the RAW file.
 
-### `class TensorRawImage` + `class RAWImage`
+# `class TensorRawImage` + `class RAWImage`
 
 <p align="center">
   <img src="./SVGs/tensorRawImage.svg">
