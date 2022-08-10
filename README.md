@@ -88,9 +88,11 @@ Therefore, a RAW image file would normally have a larger range of values for eve
   <img src="./SVGs/RAWvsJPG_SSIM.svg">
 </p>
 
-# New objects that connect fast.ai and rawpy
+# Behind the stage
 
-### `class TensorRawImage` + `class RAWImage`
+### New objects that create the bond between fast.ai and rawpy
+
+## `class TensorRawImage` + `class RAWImage`
 
 <p align="center">
   <img src="./SVGs/tensorRawImage.svg">
