@@ -63,7 +63,6 @@ This line code snippet creates two `RawImageBlock` blocks of input and target, w
 dblock = DataBlock(blocks=(RawImageBlock(  # Input
                                          gamma=(2.222, 4.5),                 # Gamma values
                                          output_color=rawpy.ColorSpace.sRGB, # sRGB Color Space
-                                         bright=0.50,                        # Brightness level
                                          output_bps=16),                     # Bits_per_pixel 
                            RawImageBlock( # Target
                                          use_camera_wb=True,                 # White blanace
