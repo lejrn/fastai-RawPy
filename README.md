@@ -97,3 +97,7 @@ New objects that create the bond between fast.ai and rawpy
 <p align="center">
   <img src="./SVGs/tensorRawImage.svg">
 </p>
+
+# References
+- [fast.ai](https://github.com/fastai)
+- [rawpy](https://github.com/letmaik/rawpy)
