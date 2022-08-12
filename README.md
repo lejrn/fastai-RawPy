@@ -84,6 +84,22 @@ Therefore, a RAW image file would normally have a larger range of values for eve
 
 # Performance
 
+Given the same dataset and other fixed variables (as described below), the results show better performance for using RAW over JPG.
+
+The fixed variables:
+
+```
+  item_tfms=[RandomResizedCrop(size=512,min_scale=0.5)],
+  batch_tfms=[*aug_transforms(flip_vert=True,
+                              min_zoom=0.65, max_zoom=1.35, 
+                              max_rotate=5.0,
+                              max_warp=0.25, 
+                              max_lighting=0,p_lighting=0
+                              )
+```
+
+> Note: the `RandomResizedCrop()` given by fast.ai for `Image.Image` objects (from `PIL`) sets a random patch to crop, then resizes it to the desired size (bigger or smaller the random cropped patch). I've downgraded the `RandomResizedCrop()` transform that I've anyway adjusted to fit `RAWPYObj` objects, and had been designed to improve results by not only random cropping, but also by random selection of resizing or not, in addition to the cropping.
+
 <p align="center">
   <img src="./SVGs/RAWvsJPG_SSIM.svg">
 </p>
