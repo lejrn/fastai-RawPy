@@ -114,6 +114,18 @@ New objects that create the bond between fast.ai and rawpy
   <img src="./SVGs/tensorRawImage.svg">
 </p>
 
+# Special Thanks
+- Jeremy Howard
+- Ben Coman
+- Tanishq Abraham
+- Keno Bressem
+- Scott H Hawley
+- Benjamin Warner
+- Mat Miller
+- Vishnu Subramanian
+- Pedro Pablo Camellón Quintero
+- Other fast.ai members: crayoneater, JackByte.
+
 # References
 - [fast.ai](https://github.com/fastai)
 - [rawpy](https://github.com/letmaik/rawpy)
