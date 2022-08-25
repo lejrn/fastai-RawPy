@@ -113,7 +113,7 @@ New objects that create the bond between fast.ai and rawpy
 ## `class TensorRawImage` + `class RAWImage`
 
 <p align="center">
-  <img src="./SVGs/tensorRawImage.svg">
+  <img src="./SVGs/RawImageBlock__.svg">
 </p>
 
 # Special Thanks
