@@ -1,6 +1,6 @@
 (README not completed yet)
 
-[![image](https://static.pepy.tech/badge/fastai-rawpy)](https://static.pepy.tech/badge/fastai-rawpy)
+[![image](https://pepy.tech/badge/fastai-rawpy)](https://pepy.tech/badge/fastai-rawpy)
 
 # Connecting fast.ai with RawPy
 Here we can make fast.ai framework support RawPy library, hence use RAW image files on fastai.
