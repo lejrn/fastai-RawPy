@@ -2,6 +2,7 @@
 
 
 [![Downloads](https://static.pepy.tech/personalized-badge/fastai-rawpy?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/fastai-rawpy)
+[![GitHub license](https://img.shields.io/github/license/lejrn/fastai-RawPy)](https://github.com/lejrn/fastai-RawPy/blob/main/LICENSE)
 
 # Connecting fast.ai with RawPy
 Here we can make fast.ai framework support RawPy library, hence use RAW image files on fastai.
