@@ -1,6 +1,7 @@
 (README not completed yet)
 
 
+[![Downloads](https://static.pepy.tech/personalized-badge/fastai-rawpy?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/fastai-rawpy)
 
 [![image](https://pepy.tech/badge/fastai-rawpy)](https://static.pepy.tech/personalized-badge/fastai-rawpy?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)
 
