@@ -82,7 +82,7 @@ The full list of parameters: https://letmaik.github.io/rawpy/api/rawpy.Params.ht
 
 # Why use fastai-rawpy
 
-RAW format has a bit-depth of 16bits for every channel (R,G,B[,G]), meaning: every pixel gets values in between 0 up to... 65536!
+RAW format has a bit-depth of 16bits for every channel (R,G,B[,G]), meaning: every pixel gets values in between 0 up to... 65535!
 > 2^16=65536
 
 Therefore, a RAW image file would normally have a larger range of values for every pixel. This can help training a model become more precise, when switching from JPG to RAW.
